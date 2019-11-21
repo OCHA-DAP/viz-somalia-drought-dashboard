@@ -814,7 +814,7 @@ function generateRainfall(data) {
       severityYear2018.push(rainfallData[j]['#severity+year2018']);
       severityYear2019.push(rainfallData[j]['#severity+year2019']);
     }
-    console.log(month)
+    // console.log(month)
     //create chart div
     $('.rainfallChart').append('<div class="col-md-4 rainfallChartContainer"><div id='+rainfallChart+'></div></div>');
 
